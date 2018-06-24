@@ -23,7 +23,6 @@ public class Mark {
         System.out.println();
     }
 
-
     public void square(int rowCount) {
         for (int row = 0; row <= rowCount - 1; row++) {
             for (int column = 0; column <= rowCount - 1; column++) {
