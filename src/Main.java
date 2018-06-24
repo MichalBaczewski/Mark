@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        Mark figure = new Mark();
-        figure.figure1(6);
+        Mark mark = new Mark();
+        mark.triangle(6);
         System.out.println();
-        figure.figure2(6);
+        mark.diagonal(6);
         System.out.println();
-//        figure.figure3(6);
+        mark.square(6);
     }
 }
